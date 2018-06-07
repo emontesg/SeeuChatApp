@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/estebandev/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/Users/estebandev/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchOtherPackageData react-native-lightbox@https://github.com/oblador/react-native-lightbox/#master
+20 silly cache add args [ 'react-native-lightbox@https://github.com/oblador/react-native-lightbox/#master',
+20 silly cache add   null ]
+21 verbose cache add spec react-native-lightbox@https://github.com/oblador/react-native-lightbox/#master
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'react-native-lightbox@https://github.com/oblador/react-native-lightbox/#master',
+22 silly cache add   scope: null,
+22 silly cache add   escapedName: 'react-native-lightbox',
+22 silly cache add   name: 'react-native-lightbox',
+22 silly cache add   rawSpec: 'https://github.com/oblador/react-native-lightbox/#master',
+22 silly cache add   spec: 'https://github.com/oblador/react-native-lightbox/#master',
+22 silly cache add   type: 'remote' }
+23 silly mapToRegistry name react-native-lightbox@https://github.com/oblador/react-native-lightbox/#master
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'react-native-lightbox@https://github.com/oblador/react-native-lightbox/#master',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'react-native-lightbox',
+26 silly mapToRegistry   name: 'react-native-lightbox',
+26 silly mapToRegistry   rawSpec: 'https://github.com/oblador/react-native-lightbox/#master',
+26 silly mapToRegistry   spec: 'https://github.com/oblador/react-native-lightbox/#master',
+26 silly mapToRegistry   type: 'remote' }
+27 silly mapToRegistry uri https://github.com/oblador/react-native-lightbox/#master
+28 verbose addRemoteTarball https://github.com/oblador/react-native-lightbox/#master not in flight; adding
+29 verbose addRemoteTarball [ 'https://github.com/oblador/react-native-lightbox/#master',
+29 verbose addRemoteTarball   null ]
+30 info retry fetch attempt 1 at 6:53:10 PM
+31 info attempt registry request try #1 at 6:53:10 PM
+32 http fetch GET https://github.com/oblador/react-native-lightbox/#master
+33 verbose request id 36cb88116a3a2377
+34 http fetch 406 https://github.com/oblador/react-native-lightbox/#master
+35 error fetch failed https://github.com/oblador/react-native-lightbox/#master
+36 warn retry will retry, error on last attempt: Error: fetch failed with status code 406
+37 info retry fetch attempt 2 at 6:53:21 PM
+38 info attempt registry request try #1 at 6:53:21 PM
+39 http fetch GET https://github.com/oblador/react-native-lightbox/#master
+40 http fetch 406 https://github.com/oblador/react-native-lightbox/#master
+41 error fetch failed https://github.com/oblador/react-native-lightbox/#master
+42 warn retry will retry, error on last attempt: Error: fetch failed with status code 406
+43 info retry fetch attempt 3 at 6:54:21 PM
+44 info attempt registry request try #1 at 6:54:21 PM
+45 http fetch GET https://github.com/oblador/react-native-lightbox/#master
+46 info retry will retry, error on last attempt: Error: socket hang up
+47 info attempt registry request try #2 at 6:54:31 PM
+48 http fetch GET https://github.com/oblador/react-native-lightbox/#master
+49 http fetch 406 https://github.com/oblador/react-native-lightbox/#master
+50 error fetch failed https://github.com/oblador/react-native-lightbox/#master
+51 silly fetchPackageMetaData Error: fetch failed with status code 406
+51 silly fetchPackageMetaData     at Request.<anonymous> (/Users/estebandev/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+51 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+51 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+51 silly fetchPackageMetaData     at Request.onRequestResponse (/Users/estebandev/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:954:10)
+51 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+51 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+51 silly fetchPackageMetaData     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:474:21)
+51 silly fetchPackageMetaData     at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+51 silly fetchPackageMetaData     at TLSSocket.socketOnData (_http_client.js:363:20)
+51 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+51 silly fetchPackageMetaData  error for react-native-lightbox@https://github.com/oblador/react-native-lightbox/#master Error: fetch failed with status code 406
+51 silly fetchPackageMetaData     at Request.<anonymous> (/Users/estebandev/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+51 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+51 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+51 silly fetchPackageMetaData     at Request.onRequestResponse (/Users/estebandev/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:954:10)
+51 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+51 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+51 silly fetchPackageMetaData     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:474:21)
+51 silly fetchPackageMetaData     at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+51 silly fetchPackageMetaData     at TLSSocket.socketOnData (_http_client.js:363:20)
+51 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+52 silly rollbackFailedOptional Starting
+53 silly rollbackFailedOptional Finishing
+54 silly runTopLevelLifecycles Finishing
+55 silly install printInstalled
+56 verbose stack Error: fetch failed with status code 406
+56 verbose stack     at Request.<anonymous> (/Users/estebandev/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+56 verbose stack     at emitOne (events.js:96:13)
+56 verbose stack     at Request.emit (events.js:188:7)
+56 verbose stack     at Request.onRequestResponse (/Users/estebandev/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/request/request.js:954:10)
+56 verbose stack     at emitOne (events.js:96:13)
+56 verbose stack     at ClientRequest.emit (events.js:188:7)
+56 verbose stack     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:474:21)
+56 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+56 verbose stack     at TLSSocket.socketOnData (_http_client.js:363:20)
+56 verbose stack     at emitOne (events.js:96:13)
+57 verbose cwd /Users/estebandev/seeu
+58 error Darwin 16.7.0
+59 error argv "/Users/estebandev/.nvm/versions/node/v6.11.2/bin/node" "/Users/estebandev/.nvm/versions/node/v6.11.2/bin/npm" "i"
+60 error node v6.11.2
+61 error npm  v3.10.10
+62 error fetch failed with status code 406
+63 error If you need help, you may report this error at:
+63 error     <https://github.com/npm/npm/issues>
+64 verbose exit [ 1, true ]
